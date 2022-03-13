@@ -3,7 +3,11 @@ RSVA: Recommender System using Variational Autoencoders
 
 This project is a part of the course CS 247: Advanced Data Mining.
 
-To run the code, refer to the notebook experiments.ipynb.
+To run the code, refer to the notebook experiments.ipynb. We recommend that you use Google Colab for running the code.
+
+## Dependencies:
+You need Python3 environment to run the code. The basic Python libraries are already installed on Google Colab. 
+You need to install tensorboardX using the command 'pip install tensorboardX'.
 
 ## Dataset:
 
