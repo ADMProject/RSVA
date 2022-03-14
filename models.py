@@ -225,7 +225,7 @@ def loss_function(recon_x, x, z, true, mu, logvar, anneal=1.0, device='cpu'):
         lsp = SWD
     elif lossf = 'CWD':
         # Cramer Wold Distance
-        CWD = cw(mu)
+        CWD = cw(z)
         lsp = CWD
 
     return BCE + anneal * lsp
